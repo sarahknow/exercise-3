@@ -100,6 +100,20 @@ header {
  * Sliding Navigation
  */
 
+@media only screen and (min-width: 35em) {
+  body {
+    background: transparent url("../images/person.jpg") no-repeat center top;
+    background-size: cover;
+  }
+}
+
+@media only screen and (min-width: 50em) {
+   body { 
+    background: transparent url("../images/sapling.jpg") no-repeat center top;
+    background-size: cover;
+  }
+}
+
 // Page should move when nav opens
 // only time we will ever use max-width
 @media only screen and (max-width: 60em){ 
@@ -130,8 +144,8 @@ header {
   .slide-menu{
     //creates sliding effect
     position: absolute;
-    width: 25%;
-    right: -25%;
+    width: 100%;
+    right: -100%;
     top: -25px;
     bottom: 0;
     height: 100%;
@@ -139,6 +153,7 @@ header {
     min-height: 800px;
   }
 }
+
 
 // Resets page when desktop, even if nav is toggled open
 @media only screen and (min-width: 60em) {
