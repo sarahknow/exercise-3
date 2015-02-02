@@ -17,3 +17,4 @@ function toggleNav() {
     $('.site-wrapper').attr('data-state', 'slide-closed');
   }
 }
+
